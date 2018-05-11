@@ -1,6 +1,8 @@
 # HIAI-Interview
-Please create 2 identical Ubuntu VMs using the iso below:
+Please create 2 identical Ubuntu VMs in VirtuaLBox using the iso below:
 http://mirror.hmc.edu/ubuntu-releases/18.04/ubuntu-18.04-desktop-amd64.iso
+
+Esnure that both VMs are connected on the same NAT Network under each VM's Network tab, and ensure the ports are the same as the ones used in AgentSysten.java (22). If they are different, adjust the ports in AgentSystem.java accordingly.
 
 Install the necessary JDK requirements using 
 ```
