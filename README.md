@@ -6,7 +6,10 @@ Install the necessary JDK requirements using
 ```
 sudo apt-get install default-jdk
 ```
-
+Compile AgentSystem.java to an executable class file
+```
+javac AgentSystem.java
+```
 Run a copy of AgentSystem.java on each machine, passing the "PingAgent" or "PongAgent" command line argument on your respectively designated machine.
 ```
 sudo java AgentSystem PingAgent
